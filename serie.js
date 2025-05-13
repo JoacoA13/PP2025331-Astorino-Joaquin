@@ -25,6 +25,7 @@ export class Serie {
 
     createHtmlElement() {
         const div = document.createElement('div');
+        div.classList.add("card", "h-100");
         const h2 = document.createElement('h2');
         h2.textContent = this.name;
         const pLang = document.createElement('p');

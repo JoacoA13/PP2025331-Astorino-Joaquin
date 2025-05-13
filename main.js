@@ -113,9 +113,7 @@ guardados.addEventListener("click", async(e) =>{
     const p = $("listaSeriesGuardadas");
 
     const guardadas = JSON.parse(localStorage.getItem("seriesGuardadas")) || [];
-
     console.log(guardadas);
-    p.innerText(guardadas.stringify());
-    
+    //FALTA MOSTRARLO EN "Guardados.html"    
 });
 
